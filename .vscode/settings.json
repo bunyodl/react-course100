@@ -1,4 +1,10 @@
 {
   "cSpell.ignoreWords": ["unfollow"],
   "jest.runMode": "on-demand",
+  "files.readonlyInclude": {
+    "**/yarn.lock": true,
+    "**/*lock*.json": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true
+  }
 }

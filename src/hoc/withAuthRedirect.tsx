@@ -1,4 +1,4 @@
-import { ComponentType, FC } from 'react';
+import { ComponentType, FC, JSX } from 'react';
 import { connect } from 'react-redux';
 import { Navigate } from 'react-router-dom';
 import { RootState } from 'redux/redux-store';
